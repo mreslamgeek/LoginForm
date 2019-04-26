@@ -9,7 +9,7 @@ class Login extends StatefulWidget {
 class _LoginState extends State<Login> {
   final TextEditingController _userController = new TextEditingController();
   final TextEditingController _passController = new TextEditingController();
-  String username;
+  String username = '';
   void _erase(){
     setState(() {
       _userController.clear();
