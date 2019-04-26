@@ -13,6 +13,19 @@ class _LoginState extends State<Login> {
         title: Text("Login"),
         backgroundColor: Colors.yellow,
       ),
+      backgroundColor: Color.fromRGBO(17, 24, 34, 100),
+      body: Container(
+        alignment: Alignment.topCenter,
+        child: Column(
+          children: <Widget>[
+            new Image.asset(
+              'images/lock.png',
+              height: 90.0,
+              width: 90.0,
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
