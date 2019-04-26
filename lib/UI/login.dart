@@ -46,7 +46,7 @@ class _LoginState extends State<Login> {
         child: ListView(
           children: <Widget>[
             Padding(
-              padding: EdgeInsets.only(top: 10.0, bottom: 10.0),
+              padding: EdgeInsets.only(top: 20.0, bottom: 30.0),
               child: new Image.asset(
                 'images/lock.png',
                 height: 90.0,
@@ -54,8 +54,8 @@ class _LoginState extends State<Login> {
               ),
             ),
             Container(
-              width: 380.0,
-              height: 180.0,
+//              width: 380.0,
+//              height: 180.0,
               color: Colors.yellow[600],
               child: Column(
                 children: <Widget>[
